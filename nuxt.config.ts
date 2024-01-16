@@ -36,11 +36,10 @@ export default defineNuxtConfig({
   },
   css: [
     "@/assets/css/reset.css",
-    "@/assets/css/FontAwesome.css",
+    // "@/assets/css/FontAwesome.css",
     "@/assets/css/IRANYekan.css",
-    "@/assets/css/Vazir.css",
-    "@/assets/css/Shabnam.css",
+    // "@/assets/css/Vazir.css",
+    // "@/assets/css/Shabnam.css",
     "@/assets/css/style.css",
   ],
-  modules: ["@pinia/nuxt"],
 });
