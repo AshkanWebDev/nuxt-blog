@@ -4,14 +4,14 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "devDependencies": {
-    "nuxt": "^3.9.1",
-    "vue": "^3.4.10",
+  "dependencies": {
+    "nuxt": "^3.10.1",
+    "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   }
 }

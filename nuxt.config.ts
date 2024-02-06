@@ -6,7 +6,7 @@ export default defineNuxtConfig({
       title: "نمونه وبسایت بلاگ",
       htmlAttrs: {
         dir: "rtl",
-        lang: "fa",
+        lang: "fa-IR",
       },
       meta: [
         { charset: "utf-8" },
@@ -25,6 +25,31 @@ export default defineNuxtConfig({
       link: [
         // <link rel="stylesheet" href="https://myawesome-lib.css">
         { rel: "icon", type: "image/webp", href: "/favicon.webp" },
+        {
+          rel: "stylesheet",
+          type: "text/css",
+          href: "https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/reset.min.css",
+        },
+        {
+          rel: "stylesheet",
+          type: "text/css",
+          href: "https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/FontAwesome/FontAwesome.min.css",
+        },
+        {
+          rel: "stylesheet",
+          type: "text/css",
+          href: "https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/IRANYekan/IRANYekan.min.css",
+        },
+        {
+          rel: "stylesheet",
+          type: "text/css",
+          href: "https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/Vazir/Vazir.min.css",
+        },
+        {
+          rel: "stylesheet",
+          type: "text/css",
+          href: "https://cdn.jsdelivr.net/gh/moalgholi/fonts@main/dist/Shabnam/Shabnam.min.css",
+        },
         // { rel: "manifest", href: "/manifest.json" },
       ],
       // please note that this is an area that is likely to change
@@ -34,12 +59,5 @@ export default defineNuxtConfig({
       ],
     },
   },
-  css: [
-    "@/assets/css/reset.css",
-    // "@/assets/css/FontAwesome.css",
-    "@/assets/css/IRANYekan.css",
-    // "@/assets/css/Vazir.css",
-    // "@/assets/css/Shabnam.css",
-    "@/assets/css/style.css",
-  ],
+  css: ["@/assets/css/style.css"],
 });
